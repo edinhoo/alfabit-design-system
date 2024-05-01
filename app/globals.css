@@ -24,6 +24,14 @@
 
     --disabled: 138, 138, 138 /* #8A8A8A */;
 
+    --bg-light: 255, 255, 255 /* #FFFFFF */;
+    --bg-dark: 248, 248, 248 /* #F8F8F8 */;
+    --bg-disabled: 239, 239, 239 /* #EFEFEF */;
+
+    --text-primary: 24, 24, 24 /* #181818 */;
+    --text-secondary: 92, 92, 92 /* #5C5C5C */;
+    --text-tertiary: 116, 116, 116 /* #747474 */;
+
   .theme-violet {
     --primary: 175, 75, 254 /* #AF4BFE */;
     --secondary: 190, 116, 249 /* #BE74F9 */;

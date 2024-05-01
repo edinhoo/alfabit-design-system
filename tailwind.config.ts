@@ -24,6 +24,17 @@ const config: Config = {
         divider: 'rgba(var(--divider), <alpha-value>)',
         disabled: 'rgba(var(--disabled), <alpha-value>)',
       },
+      backgroundColor: {
+        light: 'rgba(var(--bg-light), <alpha-value>)',
+        dark: 'rgba(var(--bg-dark), <alpha-value>)',
+        disabled: 'rgba(var(--bg-disabled), <alpha-value>)',
+      },
+      textColor: {
+        gray: {
+          primary: 'rgba(var(--text-primary), <alpha-value>)',
+          secondary: 'rgba(var(--text-secondary), <alpha-value>)',
+          tertiary: 'rgba(var(--text-tertiary), <alpha-value>)',
+        },
       },
     },
   },
