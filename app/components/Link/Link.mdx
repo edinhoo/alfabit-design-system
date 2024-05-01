@@ -1,0 +1,24 @@
+import { Canvas, Controls, Meta, Primary } from '@storybook/blocks';
+
+import * as Story from './Link.stories.ts';
+
+<Meta of={Story} />
+
+# Âncora
+Este é um component de link, utilizado para navegação entre páginas ou sessões.
+
+## Tema Padrão
+### Primário
+<Canvas of={Story.Primary} />
+### Desabilitado
+<Canvas of={Story.Disabled} />
+
+## Tema Violeta
+### Primário
+<Canvas of={Story.Violet} />
+### Desabilitado
+<Canvas of={Story.VioletDisabled} />
+
+## Documentação Interativa (Controles):
+<Primary />
+<Controls />

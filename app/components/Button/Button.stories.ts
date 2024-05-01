@@ -7,8 +7,8 @@ const meta: Meta<ButtonProps> = {
   component: Button,
   argTypes: {
     children: { type: 'string' },
-    disabled: { type: 'boolean' },
     className: { type: 'string' },
+    disabled: { type: 'boolean' },
   },
 };
 
