@@ -36,6 +36,23 @@ const config: Config = {
           tertiary: 'rgba(var(--text-tertiary), <alpha-value>)',
         },
       },
+      boxShadow: {
+        sm: 'var(--shadow-sm)',
+        md: 'var(--shadow-md)',
+        lg: 'var(--shadow-lg)',
+        focus: 'var(--shadow-focus)',
+        outline: 'var(--shadow-outline)',
+        'button-focus': 'var(--shadow-button-focus)',
+      },
+      blur: {
+        default: 'var(--blur)',
+      },
+      borderRadius: {
+        none: 'var(--border-radius-none)' /* 0 */,
+        sm: 'var(--border-radius-sm)' /* 4px */,
+        md: 'var(--border-radius-md)' /* 8px */,
+        lg: 'var(--border-radius-lg)' /* 16px */,
+      }
     },
   },
   plugins: [],
