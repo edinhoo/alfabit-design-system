@@ -12,6 +12,18 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        primary: 'rgba(var(--primary), <alpha-value>)',
+        secondary: 'rgba(var(--secondary), <alpha-value>)',
+        tertiary: 'rgba(var(--tertiary), <alpha-value>)',
+        quaternary: 'rgba(var(--quaternary), <alpha-value>)',
+        hover: 'rgba(var(--hover), <alpha-value>)',
+        click: 'rgba(var(--click), <alpha-value>)',
+        icon: 'rgba(var(--icon), <alpha-value>)',
+        outline: 'rgba(var(--outline), <alpha-value>)',
+        divider: 'rgba(var(--divider), <alpha-value>)',
+        disabled: 'rgba(var(--disabled), <alpha-value>)',
+      },
       },
     },
   },

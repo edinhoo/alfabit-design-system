@@ -2,32 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+}
+
+}
+
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+    /* COLORS */
+    --primary: 45, 91, 255 /* ##2D5BFF */;
+    --secondary: 98, 132, 253 /* #6284FD */;
+    --tertiary: 150, 173, 255 /* #96ADFF */;
+    --quaternary: 236, 240, 255 /* #ECF0FF */;
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+    --hover: 27, 74, 240 /* #1B4AF0 */;
+    --click: 0, 46, 208 /* #002ED0 */;
+    --icon: 124, 123, 123 /* #7C7B7B */;
+    --outline: 215, 215, 215 /* #D7D7D7 */;
+    --divider: 237, 237, 237 /* #EDEDED */;
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+    --disabled: 138, 138, 138 /* #8A8A8A */;
+
+  .theme-violet {
+    --primary: 175, 75, 254 /* #AF4BFE */;
+    --secondary: 190, 116, 249 /* #BE74F9 */;
+    --tertiary: 226, 189, 255 /* #E2BDFF */ ;
+    --quaternary: 245, 232, 255 /* #F5E8ff */;
   }
 }
