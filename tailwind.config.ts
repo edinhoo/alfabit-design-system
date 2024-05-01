@@ -7,6 +7,9 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      mulish: 'Mulish, sans-serif',
+    },
     screens: {
       mobile: 'var(--screen-mobile)',
       tablet: 'var(--screen-tablet)',
@@ -45,10 +48,6 @@ const config: Config = {
       xl: 'var(--text-xl)' /* 20px */,
     },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       colors: {
         primary: 'rgba(var(--primary), <alpha-value>)',
         secondary: 'rgba(var(--secondary), <alpha-value>)',
@@ -94,4 +93,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;

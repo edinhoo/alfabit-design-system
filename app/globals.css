@@ -2,10 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Mulish';
+  src: url('./fonts/Mulish-BoldItalic.woff2') format('woff2'),
+    url('./fonts/Mulish-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
 }
 
+@font-face {
+  font-family: 'Mulish';
+  src: url('./fonts/Mulish-Bold.woff2') format('woff2'),
+    url('./fonts/Mulish-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
+@font-face {
+  font-family: 'Mulish';
+  src: url('./fonts/Mulish-ExtraBold.woff2') format('woff2'),
+    url('./fonts/Mulish-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('./fonts/Mulish-ExtraBoldItalic.woff2') format('woff2'),
+    url('./fonts/Mulish-ExtraBoldItalic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('./fonts/Mulish-Regular.woff2') format('woff2'),
+    url('./fonts/Mulish-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish';
+  src: url('./fonts/Mulish-Italic.woff2') format('woff2'),
+    url('./fonts/Mulish-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+* {
+  font-family: 'Mulish', sans-serif;
 }
 
 @layer base {
